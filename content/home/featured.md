@@ -1,36 +1,22 @@
 ---
-# An instance of the Featured widget.
-# Documentation: https://wowchemy.com/docs/page-builder/
-widget: featured
-
-# This file represents a page section.
+widget: publications
+widget_id: publications
 headless: true
-
-# Order that this section appears on the page.
 weight: 80
-
-title: Featured Publications
+title: Publications
 subtitle: ""
-
 content:
-  # Page type to display. E.g. post, talk, publication...
   page_type: publication
-  # Choose how many pages you would like to display (0 = all pages)
   count: 0
-  # Filter on criteria
   filters:
     author: ""
     category: ""
     publication_type: ""
     tag: ""
-  # Page order: descending (desc) or ascending (asc) date.
   order: desc
-
 design:
-  # Choose a view for the listings:
-  #   1 = List
-  #   2 = Compact
-  #   3 = Card
-  #   4 = Citation (publication only)
   view: 3
 ---
+[Robust Importance Weighting for Covariate Shift](http://proceedings.mlr.press/v108/li20b.html), with *[Henry Lam](http://www.columbia.edu/~khl2114/) & Fengpei Li.*
+
+*Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics*, PMLR 108:352-362, 2020.
